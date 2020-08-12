@@ -15,7 +15,7 @@ fn main() {
 
         // fetch libsnark source
         const LIBSNARK_URL: &'static str = "https://github.com/danaroseChain/libsnark.git";
-        const LIBSNARK_COMMIT: &'static str = "f7c87b88744ecfd008126d415494d9b34c4c1b20";
+        const LIBSNARK_COMMIT: &'static str = "749ef2b36f3970fe1a87fff8aa6186f098142025";
 
         let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
         let libsnark_source_path = &out_path.join("libsnark");
