@@ -14,6 +14,8 @@ fn main() {
         use std::path::PathBuf;
 
         // fetch libsnark source
+        println!("DANA IM IN ZoKrates/zokrates_core/build.rs");
+
         const LIBSNARK_URL: &'static str = "https://github.com/danaroseChain/libsnark.git";
         const LIBSNARK_COMMIT: &'static str = "fb2bcbb206331393d227835bab55cee07fab394d";
 
