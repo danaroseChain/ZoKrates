@@ -17,7 +17,7 @@ fn main() {
         println!("DANA IM IN ZoKrates/zokrates_core/build.rs");
 
         const LIBSNARK_URL: &'static str = "https://github.com/danaroseChain/libsnark.git";
-        const LIBSNARK_COMMIT: &'static str = "fb2bcbb206331393d227835bab55cee07fab394d";
+        const LIBSNARK_COMMIT: &'static str = "13e6e7de5eab4824b93ead035b3eda4a3e195f1f";
 
         let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
         let libsnark_source_path = &out_path.join("libsnark");
