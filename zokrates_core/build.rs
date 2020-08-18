@@ -14,9 +14,9 @@ fn main() {
         use std::path::PathBuf;
 
         // fetch libsnark source
-
-        const LIBSNARK_URL: &'static str = "https://github.com/scipr-lab/libsnark.git";
-        const LIBSNARK_COMMIT: &'static str = "f7c87b88744ecfd008126d415494d9b34c4c1b20";
+        println!("DANA I'm here in zokrates!");
+        const LIBSNARK_URL: &'static str = "https://github.com/danaRoseChain/libsnark.git";
+        const LIBSNARK_COMMIT: &'static str = "33d2f77e52f237043370ae85779740a25298cdc6";
 
         let libsnark_source_path = &PathBuf::from(env::var("OUT_DIR").unwrap()).join("LIBSNARK");
 
